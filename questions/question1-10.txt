@@ -1,24 +1,43 @@
 Questionnaire: 
 
 1. What are javascript functions?
+JS functions are block of code which perform a specific task. We have to call a function explicitly in order to execute it.
+A JavaScript function is defined with the "function" keyword, followed by a name, followed by parentheses (). Inside parentheses 
+we can pass arguments and a function might return some value too.
 
 2. Explain call-back functions in your own words.
+A callback function is a function passed into another function as an argument and that function is responsible to call/invoke it to complete some kind of routine or action.
+
 
 3. Why are javascript functions first-class citizens? (in your own words, please)
+we are able to pass, return and assign a type to a function thats why its a first class citizen. 
+For example, var myFunction = function() {}; //assign
+
 
 4. Explain javascript Closures in your own words.
+The closure is like a js function except that it remembers the variables from the place where it is defined, no matter where it is executed.
+
 
 5. When/Why do you use the .then() method of a promise?
+".then()" method is a way to get a promise's value from the promise directly. You need to call the then() function to register a callback that JavaScript will call when the value is computed.
+It is used to for asynchronous tasks such as an API call. This function has two parameters to handle the success or rejection of the promise.
+
 
 6. When/Why do you use the .catch() method of a promise?
+The catch() method returns a Promise and deals with rejected cases only.
+
 
 7. What is the spread operator?
+The spread operator is commonly used to make shallow copies of JS objects and spreads it values. Its behaves like "concat" method.
 
 
 8. What is the rest operator?
+It is used in when passing array as in argument to a function. We are able to get a list of arguments into an array. 
 
 
-9. What is the difference between the rest operator and the spead operator?
-
+9. What is the difference between the rest operator and the spread operator?
+Spread operator unpack elements in an array to single/individual arguments where as rest operator gathers elements (arguments to a function) into an array.
 
 10. What is Object and Array Destructuring in javascript?
+Object and Array Destructuring is used to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
+

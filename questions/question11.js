@@ -17,5 +17,10 @@ var user = {
   },
  };
  
-
+var { favoriteThings: { food } } = user
+console.log(food)
 // Once you have grabbed the favorite foods. Descontrusct the food array to grab only the first 2 values.
+var [food1, food2] = food
+
+console.log(food1)
+console.log(food2)
